@@ -1,0 +1,28 @@
+html, body {
+	height: 100%;
+}
+
+.button12{
+	width: 100px;
+	height: 50px;
+	margin-bottom: 7px;
+}
+
+#textfield {
+	margin-bottom: 10px;
+	width: 200px;
+	height: 50px;
+}
+
+#C{
+	width: 100px;
+	height: 56px;
+	margin-bottom: 7px;
+}
+
+section{
+	border: 10px solid transparent;
+	padding: 5px;
+	border-image:url(https://st.depositphotos.com/2171213/5086/v/950/depositphotos_50863223-stock-illustration-bright-gradient-triangles.jpg);
+}
+

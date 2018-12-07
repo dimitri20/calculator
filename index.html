@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+<body style="height: 100%;
+background-image: url(https://guardian.ng/wp-content/uploads/2017/03/Naija-Mathematics-Olympiad.jpg);
+
+background-repeat: none;
+background-size:cover;">
+
+
+
+<section style="margin-right: 261px;
+margin-top: 105px; 
+margin-left: 750px; border: 10px solid transparent;
+padding: 5px;
+border-image:url(https://st.depositphotos.com/2171213/5086/v/950/depositphotos_50863223-stock-illustration-bright-gradient-triangles.jpg) 30 round;">
+
+<form name="calculator">
+
+	<input id="textfield" type="textfield"  name="ans" value="">
+	<input id="C" type="reset" value="C" onclick="document.calculator.ans.value+='C'"><br>
+	<input class="button12" type="button" value="+" onclick="document.calculator.ans.value+='+'">
+	<input class="button12" type="button" value="(" onclick="document.calculator.ans.value+='('">
+	<input class="button12" type="button" value=")" onclick="document.calculator.ans.value+=')'"><br>
+	<input class="button12" type="button" value="/" onclick="document.calculator.ans.value+='/'">
+	<input class="button12" type="button" value="*" onclick="document.calculator.ans.value+='*'">
+	<input class="button12" type="button" value="-" onclick="document.calculator.ans.value+='-'"><br>
+	<input class="button12" type="button" value="7" onclick="document.calculator.ans.value+='7'">
+	<input class="button12" type="button" value="8" onclick="document.calculator.ans.value+='8'">
+	<input class="button12" type="button" value="9" onclick="document.calculator.ans.value+='9'"><br>
+	<input class="button12" type="button" value="4" onclick="document.calculator.ans.value+='4'">
+	<input class="button12" type="button" value="5" onclick="document.calculator.ans.value+='5'">
+	<input class="button12" type="button" value="6" onclick="document.calculator.ans.value+='6'"><br>
+	<input class="button12" type="button" value="1" onclick="document.calculator.ans.value+='1'">
+	<input class="button12" type="button" value="2" onclick="document.calculator.ans.value+='2'">
+	<input class="button12" type="button" value="3" onclick="document.calculator.ans.value+='3'"><br>
+	<input class="button12" type="button" value="0" onclick="document.calculator.ans.value+='0'">
+	<input class="button12" type="button" value="." onclick="document.calculator.ans.value+='.'">
+	<input class="button12" type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+</section>
+
+</form>
+
+
+</body>
+</html>
